@@ -2,11 +2,11 @@
 #include <math.h>
 
 int main() {
-    int num = 12;
+    int num = 45;
     int num1 = 0;
     double uds = 0;
     double lds = 0;
-    double dist = ((3 * M_PI / 2) - M_PI) / 12;
+    double dist = ((3 * M_PI / 2) - M_PI) / num;
     while(num1 < num){
         double resultUDS = sin(M_PI + (dist*num1)) * dist;
         double resultLDS = sin(M_PI + (dist*(num1 + 1))) * dist;
